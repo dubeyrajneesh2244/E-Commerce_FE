@@ -1,6 +1,7 @@
 import * as actionTypes from '../Types/Types'
 import axios from 'axios' ;
-const API_BASE_URL = 'http://localhost:4000' ;
+// const API_BASE_URL = 'http://localhost:4000' ;
+const API_BASE_URL = 'https://e-commerce-be-4kq7.onrender.com' ;
 
 export const getAllProducts = () => async(dispatch)=>{
     try{
